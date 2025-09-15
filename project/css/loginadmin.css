@@ -1,0 +1,44 @@
+.login{
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.login1{
+    background: linear-gradient(135deg, #667eea 0%,#764ba2 100%);
+    padding :40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 300px;
+    margin-top: 550px;
+}
+.login1 h2{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 32px;
+    color: white
+}
+.login1 input{
+    width: 280px;
+    padding: 12px;
+    margin: 8px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login1 button{
+    width: 305px;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login1 button:hover{
+    background-color:#0056b3;
+    transition: 0.5s;
+}
+.register_admin{
+    font-size: 16px;
+}
